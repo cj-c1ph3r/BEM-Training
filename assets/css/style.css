@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav--container{
+    background-color: #292733;
+    width: 100%;
+}
+.nav--container .menu--nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.menu--nav .nav__active{
+    color: #C20502;
+}
+/* .land--container{
+    display: flex;
+} */
+.land--container img{
+    width: 100%;
+}
+.land--container .banner--container{
+    display: flex;
+}
+.land--container .land__heading{
+    text-align: right;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 51.7px;
+    position: absolute;
+}
