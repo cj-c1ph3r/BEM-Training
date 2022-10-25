@@ -24,20 +24,28 @@
 .menu--nav .nav__active{
     color: #C20502;
 }
-/* .land--container{
-    display: flex;
-} */
+/* banner------------ */
+.land--container{
+    margin: 0;
+    padding: 0;
+}
 .land--container img{
     width: 100%;
 }
-.land--container .banner--container{
+.banner--container{
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-.land--container .land__heading{
+.banner--container .banner--text{
+    position: absolute;
+    top: 321px;
+    margin-left: 10px;
+}
+.banner--container h1{
     text-align: right;
     font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 49px;
-    line-height: 51.7px;
-    position: absolute;
+    line-height: 105.5%;
 }
