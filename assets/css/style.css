@@ -231,8 +231,8 @@
     text-transform: uppercase;
 }
 .fourth-container__right{
-    background-color: #ffff;
-    width: 610px;
+    background-color: #F1F3F4;
+    width: 612px;
     height: 535px;
     display: flex;
     flex-direction: column;
@@ -261,4 +261,206 @@
     font-size: 16px;
     line-height: 16px;
     padding: 20px;
+}
+/* Fifth Section */
+.fifth--section{
+    background-color: #ffffff;
+    height: 100vh;
+}
+.fifth--section__group{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fifth--section h1{
+    margin-top: 50px;
+    text-align: center;
+    line-height: 59.37px;
+    font-weight: 700;
+    font-size: 64px;
+    font-family: 'Roboto Slab';
+}
+.fifth--container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fifth--container .text{
+    text-align: left;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26.38px;
+    color: rgb(0, 0, 0);
+}
+.fifth--container .text h3{
+    width: 300px;
+}
+.fifth--container .text .price{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.fifth--container .text .subtext{
+    color: #888888;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.1px;
+}
+.fifth--container .img__border{
+    background-color: #F1F3F4;
+    width: 282px;
+    height: 285px;
+    padding: 25px;
+}
+/* Sixth Section */
+.sixth--section{
+    background-color: #ffff;
+    padding: 10px;
+    height: 90vh;
+}
+.sixth--container__group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sixth--container{
+    background-color: #C20502;
+    height: 77.3vh;
+    width: 630px;
+    color: #ffff;
+}
+.img__flex{
+    width: 590px;
+    height: 590px;
+}
+.text--container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+}
+.text--container h1{
+    font-size: 40px;
+    line-height: 52.75px;
+    font-weight: 700;
+    font-family: 'Roboto Slab';
+}
+.text--container button{
+    background-color: #ffff;
+    border: #ffff;
+    color: #C20502;
+    padding: 10px 30px 10px 30px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+/* Seventh Section */
+.seventh--section{
+    width: 100%;
+}
+.seventh--container__group{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 65.2vh;
+}
+.img__container img{
+    height: 65.29vh;
+}
+.contain__xl .img__xl img{
+    height: 70vh;
+    width: 100%;
+}
+.seventh--section .text--container{
+    color: #fff;
+    position: relative;
+}
+.seventh--section  button{
+    color: #C20502;
+}
+/* Eight Section */
+.eight--section{
+    background-color: #ffffff;
+    height: 100vh;
+}
+.eight--section__group{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.eight--section h1{
+    margin-top: 50px;
+    text-align: center;
+    line-height: 59.37px;
+    font-weight: 700;
+    font-size: 64px;
+    font-family: 'Roboto Slab';
+}
+.eight--container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.eight--container .text{
+    text-align: left;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26.38px;
+    color: rgb(0, 0, 0);
+}
+.eight--container .text h3{
+    width: 300px;
+}
+.eight--container .text .price{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.eight--container .text .subtext{
+    color: #888888;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.1px;
+}
+.eight--container .img__border{
+    background-color: #F1F3F4;
+    width: 282px;
+    height: 285px;
+    padding: 25px;
+}
+.slider--container{
+    display: flex;
+    justify-content: center;
+}
+/* Ninth Section */
+.ninth--section{
+    width: 100%;
+    background-color: #C20502;
+    height: 60vh;
+}
+.text--container{
+    padding: 50px;
+}
+input{
+    padding: 15px;
+    width: 50%;
+}
+i{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 40%;
 }
